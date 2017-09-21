@@ -139,7 +139,7 @@ int main() {
 
 	bool held_R = false;
 
-	printf("\nPress R to take a picture !n");
+	printf("\nPress R to take a picture !\n");
 	printf("Use slider to enable/disable 3D. Make 3D pictures !\n");
 	printf("Hi ! Press START to exit Homebrew Launcher.\n");
 
