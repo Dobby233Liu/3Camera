@@ -28,11 +28,14 @@ include $(DEVKITARM)/3ds_rules
 #     - <libctru folder>/default_icon.png
 #---------------------------------------------------------------------------------
 TARGET		:=	$(notdir $(CURDIR))
-BUILD		:=	build
+BUILD		:=	bin
 SOURCES		:=	source
 DATA		:=	data
 INCLUDES	:=	include
-#ROMFS		:=	romfs
+APP_TITLE       :=      3Camera
+APP_AUTHOR      :=      3dshax
+ICON            :=      things/20170921192832-do-2ok.png
+#  ROMFS		:=	romfs
 
 #---------------------------------------------------------------------------------
 # options for code generation
